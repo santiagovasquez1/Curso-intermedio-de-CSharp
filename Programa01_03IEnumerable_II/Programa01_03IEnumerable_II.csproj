@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5ED40386-E7BF-473B-B34A-1BEB68952A82}</ProjectGuid>
+    <ProjectGuid>{CF968B54-029F-4AAB-8B19-2E33544006DB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Programa01</RootNamespace>
-    <AssemblyName>Programa01</AssemblyName>
+    <RootNamespace>Programa01_03IEnumerable_II</RootNamespace>
+    <AssemblyName>Programa01_03IEnumerable_II</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CResta.cs" />
-    <Compile Include="CSuma.cs" />
-    <Compile Include="Ioperaciones.cs" />
+    <Compile Include="CContenedora.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

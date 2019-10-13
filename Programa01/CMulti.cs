@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Programa01
 {
-    class CResta : Ioperaciones
+    class CMulti : Ioperaciones
     {
-        private double r = 0;
+        private double r;
         public void Mostrar()
         {
-            Console.WriteLine("El resultado de la resta es {0}", r);
+            Console.WriteLine("El resultado de la multiplicacion es {0}", r);
         }
 
         public void Calcular(double a, double b)
         {
-            r = a - b;
+            r = a * b;
         }
     }
 }

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Programa01
+namespace Programa01_02
 {
-    interface Ioperaciones
+    interface IAutomovil
     {
-        void Calcular(double a, double b);
+        void CalculaTenencia(double imp);
         void Mostrar();
     }
 }

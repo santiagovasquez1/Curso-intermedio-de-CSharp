@@ -10,12 +10,12 @@ namespace Programa01
     {
         private double r = 0;
 
-        public void Mostras()
+        public void Mostrar()
         {
             Console.WriteLine("El resultado de la suma es {0}", r);
         }
 
-        public void Operacion(double a, double b)
+        public void Calcular(double a, double b)
         {
             r=a+b;
         }
