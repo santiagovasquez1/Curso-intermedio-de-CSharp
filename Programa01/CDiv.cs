@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Programa01
 {
-    class CDiv:Ioperaciones
+    internal class CDiv : Ioperaciones
     {
         private double r = 0;
 

@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Programa01
+﻿namespace Programa01
 {
-    interface Ioperaciones
+    internal interface Ioperaciones
     {
         void Calcular(double a, double b);
+
         void Mostrar();
     }
 }

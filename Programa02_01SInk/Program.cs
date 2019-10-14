@@ -1,27 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Programa02_01SInk
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //Crear la instancia de la clase
-            CRefri refri = new CRefri(50, -20);
+            CRefri refri = new CRefri(60, -20);
             Random rnd = new Random();
 
             //Creacion del sink
             CRefriSink sink1 = new CRefriSink();
+            CTiendaSink tiendaSink = new CTiendaSink();
 
             //Vinculacion de ambos objetos
             refri.AgregarSink(sink1);
+            refri.AgregarSink(tiendaSink);
 
             //El refri hace su trabajo
-            while (refri.Kilos > 0)
+            while (refri.Kilos > 0 && sink1.paro==false)
             {
                 refri.Trabajar(rnd.Next(1, 5));
             }

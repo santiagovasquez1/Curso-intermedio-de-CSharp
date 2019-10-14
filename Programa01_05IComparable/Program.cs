@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Programa01_05IComparable
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             CRectangulo[] rectangulos = new CRectangulo[5];
             List<CRectangulo> Rectangulos2 = new List<CRectangulo>();
-            
+
             rectangulos[0] = new CRectangulo(7, 5);
             rectangulos[1] = new CRectangulo(6, 4);
             rectangulos[2] = new CRectangulo(4, 3);
@@ -34,7 +32,7 @@ namespace Programa01_05IComparable
             foreach (CRectangulo rectangulo in rectangulos)
                 Console.WriteLine(rectangulo);
             Console.WriteLine("===========");
-            
+
             Rectangulos2.Sort();
             foreach (CRectangulo rectangulo in Rectangulos2)
                 Console.WriteLine(rectangulo);

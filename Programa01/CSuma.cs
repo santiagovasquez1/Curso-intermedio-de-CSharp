@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Programa01
 {
-    class CSuma : Ioperaciones
+    internal class CSuma : Ioperaciones
     {
         private double r = 0;
 
@@ -17,7 +13,7 @@ namespace Programa01
 
         public void Calcular(double a, double b)
         {
-            r=a+b;
+            r = a + b;
         }
     }
 }

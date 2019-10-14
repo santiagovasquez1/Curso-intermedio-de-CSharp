@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections;
 
 namespace Programa01_02
 {
-    class CTienda
+    internal class CTienda
     {
         private CAuto[] disponibles;
 
@@ -24,6 +19,5 @@ namespace Programa01_02
         {
             return disponibles.GetEnumerator();
         }
-
     }
 }

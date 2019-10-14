@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Programa01_03IEnumerable_II
 {
-    class CContenedora : IEnumerable
+    internal class CContenedora : IEnumerable
     {
         private int[] Valores = new int[10];
 
@@ -24,12 +20,12 @@ namespace Programa01_03IEnumerable_II
         }
     }
 
-    class ContenedorEnum : IEnumerator  //Clase enumerator de nuestra estructura de datos
+    internal class ContenedorEnum : IEnumerator  //Clase enumerator de nuestra estructura de datos
     {
         public int[] arreglo;
-        private int posicion=-1;
+        private int posicion = -1;
 
-        public ContenedorEnum(int[]pArreglo)
+        public ContenedorEnum(int[] pArreglo)
         {
             arreglo = pArreglo;
         }
@@ -53,7 +49,7 @@ namespace Programa01_03IEnumerable_II
 
         public void Reset() //Reestrablecer el inicio
         {
-            posicion=-1;
+            posicion = -1;
         }
     }
 }

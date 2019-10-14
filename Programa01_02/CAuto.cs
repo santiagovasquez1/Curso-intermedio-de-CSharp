@@ -1,23 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Programa01_02
 {
-    class CAuto : IAutomovil,ICloneable
+    internal class CAuto : IAutomovil, ICloneable
     {
-        double costo;
-        double tenencia;
-        string modelo;
+        private double costo;
+        private double tenencia;
+        private string modelo;
 
         //propiedades
         public double Costo { get { return costo; } set { costo = value; } }
+
         public double Tenencia { get { return tenencia; } set { tenencia = value; } }
 
         //Constructor
-        public CAuto(string _modelo,double _costo)
+        public CAuto(string _modelo, double _costo)
         {
             costo = _costo;
             modelo = _modelo;

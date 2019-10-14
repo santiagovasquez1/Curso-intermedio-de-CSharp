@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CRefri.cs" />
     <Compile Include="CRefriSink.cs" />
+    <Compile Include="CTiendaSink.cs" />
     <Compile Include="IEvenetosRefri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

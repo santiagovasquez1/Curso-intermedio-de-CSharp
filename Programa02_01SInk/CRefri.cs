@@ -1,20 +1,16 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Programa02_01SInk
 {
-    class CRefri
+    internal class CRefri
     {
         private ArrayList ListaSinks = new ArrayList(); //Arreglo dinamico
 
         private int kilosAlimentos;
         private int grados;
 
-        public CRefri(int pkilos,int pgrados)
+        public CRefri(int pkilos, int pgrados)
         {
             kilosAlimentos = pkilos;
             grados = pgrados;
@@ -35,8 +31,9 @@ namespace Programa02_01SInk
 
         //Propiedades de la clase
         public int Kilos { get { return kilosAlimentos; } }
+
         public int Grados { get { return grados; } }
-        
+
         public void Trabajar(int pconsumo)
         {
             //Actualizamos los kilos en el refri
@@ -48,17 +45,25 @@ namespace Programa02_01SInk
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("{0} kilos, {1} grados", kilosAlimentos, grados);
 
-            //Verificacion de condiciones para accionar eventes 
+            //Verificacion de condiciones para accionar eventes
 
             if (kilosAlimentos < 10)
             {
                 //Invocacion a los handlers de cada sink
-                foreach(IEvenetosRefri Handler in ListaSinks)
+                foreach (IEvenetosRefri Handler in ListaSinks)
                 {
                     Handler.EReservasBajas(kilosAlimentos);
                 }
             }
 
+            if (Grados >= 0)
+            {
+                //Invocacion a los handlers de cada sink
+                foreach (IEvenetosRefri Handler in ListaSinks)
+                {
+                    Handler.Edescongelado(grados);
+                }
+            }
         }
     }
 }

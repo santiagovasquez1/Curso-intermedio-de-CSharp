@@ -1,20 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Programa01_02
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             CTienda tienda = new CTienda();
 
             //Recorremos cada uno de los elementos de la estructura
 
-            foreach(CAuto auto in tienda)
+            foreach (CAuto auto in tienda)
             {
                 auto.CalculaTenencia(0.05);
                 auto.Mostrar();
@@ -23,7 +19,7 @@ namespace Programa01_02
             Main2();
         }
 
-        static void Main2()
+        private static void Main2()
         {
             Console.WriteLine("Inicio de main 2");
             CAuto auto1 = new CAuto("March", 17000);
