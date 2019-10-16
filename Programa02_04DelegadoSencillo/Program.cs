@@ -16,7 +16,7 @@ namespace Programa02_04DelegadoSencillo
             MiDelegado delegado = new MiDelegado(CRadio.MetodoRadio);
             //Usamo el delegado
             delegado("Hola a todos");
-
+            
             //Hacemos otro apunte a una nueva clase
             delegado = new MiDelegado(Cpastel.MostrarPastel);
 
