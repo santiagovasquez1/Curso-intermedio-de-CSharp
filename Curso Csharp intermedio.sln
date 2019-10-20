@@ -21,6 +21,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa02_05DelegadosRefri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa03_02SobrecargaBinarios", "Programa03_02SobrecargaBinarios\Programa03_02SobrecargaBinarios.csproj", "{46CA9A8C-B3F9-4AF3-AA55-E17C086CDC91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa04_01SerializacionBinaria", "Programa04_01SerializacionBinaria\Programa04_01SerializacionBinaria.csproj", "{CB0E5A7B-87A8-48F6-A6CA-14B386E7E3E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa04_2SerializacionSoapXML", "Programa04_2SerializacionSoapXML\Programa04_2SerializacionSoapXML.csproj", "{4D16E5CB-ABAD-4DF2-B027-579B6183FE3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa05_3SerializacionXML", "Programa05_3SerializacionXML\Programa05_3SerializacionXML.csproj", "{DC7A4A04-6A49-44D2-83FE-F9973A92214F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa04_4SerializacionCompuesta", "Programa04_4SerializacionCompuesta\Programa04_4SerializacionCompuesta.csproj", "{37D322AC-3F2C-48EF-93F9-70C7BE185838}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +71,22 @@ Global
 		{46CA9A8C-B3F9-4AF3-AA55-E17C086CDC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46CA9A8C-B3F9-4AF3-AA55-E17C086CDC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46CA9A8C-B3F9-4AF3-AA55-E17C086CDC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB0E5A7B-87A8-48F6-A6CA-14B386E7E3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0E5A7B-87A8-48F6-A6CA-14B386E7E3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0E5A7B-87A8-48F6-A6CA-14B386E7E3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0E5A7B-87A8-48F6-A6CA-14B386E7E3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D16E5CB-ABAD-4DF2-B027-579B6183FE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D16E5CB-ABAD-4DF2-B027-579B6183FE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D16E5CB-ABAD-4DF2-B027-579B6183FE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D16E5CB-ABAD-4DF2-B027-579B6183FE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7A4A04-6A49-44D2-83FE-F9973A92214F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7A4A04-6A49-44D2-83FE-F9973A92214F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7A4A04-6A49-44D2-83FE-F9973A92214F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7A4A04-6A49-44D2-83FE-F9973A92214F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D322AC-3F2C-48EF-93F9-70C7BE185838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D322AC-3F2C-48EF-93F9-70C7BE185838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D322AC-3F2C-48EF-93F9-70C7BE185838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D322AC-3F2C-48EF-93F9-70C7BE185838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

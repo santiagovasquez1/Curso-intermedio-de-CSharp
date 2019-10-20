@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Programa03_02SobrecargaBinarios
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             CImaginario im1 = new CImaginario(1, 2);
             CImaginario im2 = new CImaginario(3, 4);
-            CImaginario imr,imr1,imr2,imr3,imr4;
+            CImaginario imr, imr1, imr2, imr3, imr4;
 
             //hacemos la suma
             imr = im1 + im2;
@@ -27,8 +23,11 @@ namespace Programa03_02SobrecargaBinarios
             Console.WriteLine("{0} * {1} = {2}", imr, im1, imr3);
             Console.WriteLine("{0} / {1} = {2}", imr, im1, imr4);
             Main2();
+            main3();
+            Console.Read();
         }
-        static void Main2()
+
+        private static void Main2()
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("======");
@@ -46,22 +45,19 @@ namespace Programa03_02SobrecargaBinarios
             Console.WriteLine("-------");
 
             Console.WriteLine(im1);
-            im1+=im2;
+            im1 += im2;
             Console.WriteLine(im1);
             Console.WriteLine("-------");
-
-            main3();
-            
         }
 
-        static void main3()
+        private static void main3()
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("======");
 
             CImaginario im1 = new CImaginario(1, 2);
             CImaginario im2 = new CImaginario(3, 4);
-            CImaginario im3 = new CImaginario(1, 2);
+            CImaginario im3 = new CImaginario(5, 7);
 
             if (im1 == im3)
                 Console.WriteLine("Son iguales");
@@ -69,7 +65,14 @@ namespace Programa03_02SobrecargaBinarios
             if (im2 != im1)
                 Console.WriteLine("Son diferentes");
 
+            if (im1<im3)
+                Console.WriteLine("im1 es menor");
+
+            if(im2>im1)
+                Console.WriteLine("im2 es mayor");
+
             Console.Read();
         }
+
     }
 }
