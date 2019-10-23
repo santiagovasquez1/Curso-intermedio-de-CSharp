@@ -25,9 +25,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa04_01SerializacionB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa04_2SerializacionSoapXML", "Programa04_2SerializacionSoapXML\Programa04_2SerializacionSoapXML.csproj", "{4D16E5CB-ABAD-4DF2-B027-579B6183FE3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa05_3SerializacionXML", "Programa05_3SerializacionXML\Programa05_3SerializacionXML.csproj", "{DC7A4A04-6A49-44D2-83FE-F9973A92214F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa04_3SerializacionXML", "Programa05_3SerializacionXML\Programa04_3SerializacionXML.csproj", "{DC7A4A04-6A49-44D2-83FE-F9973A92214F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa04_4SerializacionCompuesta", "Programa04_4SerializacionCompuesta\Programa04_4SerializacionCompuesta.csproj", "{37D322AC-3F2C-48EF-93F9-70C7BE185838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa05_01Stream", "Programa05_02Stream\Programa05_01Stream.csproj", "{0CC7CED7-4CA4-4DCB-BD89-DBEFA2B15C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa05_02Nombrados", "Programa05_02Nombrados\Programa05_02Nombrados.csproj", "{3DDE2874-2B7E-4829-A16B-1E7ED64787D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operaciones_Basicas", "Operaciones_Basicas\Operaciones_Basicas.csproj", "{3E662944-02E7-4B6F-A23B-5F9D99D38366}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +93,18 @@ Global
 		{37D322AC-3F2C-48EF-93F9-70C7BE185838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37D322AC-3F2C-48EF-93F9-70C7BE185838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37D322AC-3F2C-48EF-93F9-70C7BE185838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC7CED7-4CA4-4DCB-BD89-DBEFA2B15C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC7CED7-4CA4-4DCB-BD89-DBEFA2B15C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC7CED7-4CA4-4DCB-BD89-DBEFA2B15C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC7CED7-4CA4-4DCB-BD89-DBEFA2B15C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DDE2874-2B7E-4829-A16B-1E7ED64787D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDE2874-2B7E-4829-A16B-1E7ED64787D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDE2874-2B7E-4829-A16B-1E7ED64787D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDE2874-2B7E-4829-A16B-1E7ED64787D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E662944-02E7-4B6F-A23B-5F9D99D38366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E662944-02E7-4B6F-A23B-5F9D99D38366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E662944-02E7-4B6F-A23B-5F9D99D38366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E662944-02E7-4B6F-A23B-5F9D99D38366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
